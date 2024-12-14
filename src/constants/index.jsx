@@ -10,7 +10,7 @@ import afterEffects from "../assets/ae.png";
 import premierPro from "../assets/pr.png";
 import ibisPaintX from "../assets/ibispaint.png";
 import canva from "../assets/canva.png";
-import sketchbook from "../assets/sketchbook.png";
+import sketchbook from "../assets/SKETCHBOOK.png";
 import InDesign from "../assets/Adobe_InDesign_CC_icon.svg.png";
 
 import {
