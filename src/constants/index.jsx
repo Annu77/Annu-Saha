@@ -1,8 +1,8 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
-import project5 from "../assets/project5.webp";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.webp";
 import photoshop from "../assets/Background.png";
 import illustrator from "../assets/Adobe_Illustrator_CC_icon.svg.png";
@@ -13,18 +13,7 @@ import canva from "../assets/canva.png";
 import sketchbook from "../assets/SKETCHBOOK.png";
 import InDesign from "../assets/Adobe_InDesign_CC_icon.svg.png";
 
-import {
-  RiHtml5Line,
-  RiCss3Line,
-  RiJavascriptLine,
-  RiReactjsLine,
-  RiNodeTree,
-} from "@remixicon/react";
-import {
-  RiDatabaseLine,
-  RiCodeSSlashLine,
-  RiGitBranchLine,
-} from "@remixicon/react";
+
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -44,7 +33,7 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Print Design",
     description:
       "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
@@ -53,7 +42,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "Brochures & Presentations",
     description:
       "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
     techStack: ["React", "Firebase", "Redux"],
@@ -62,7 +51,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Posters",
     description:
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
     techStack: ["Next.js", "Tailwind CSS"],
@@ -71,7 +60,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Banners & Standees",
     description:
       "A blogging platform with a content management system, user authentication, and an intuitive editor.",
     techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
@@ -80,7 +69,7 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Task Management App",
+    title: "Social Media Creatives",
     description:
       "A task management tool with user authentication, reminders, and collaboration features.",
     techStack: ["Angular", "Firebase", "Material UI"],
