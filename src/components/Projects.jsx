@@ -37,7 +37,7 @@ const Projects = () => {
           {PROJECTS.map((project) => (
             <div
               key={project.id}
-              className="project-card flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+              className="project-card flex w-full flex-col p-4 md:w-1/2 "
             >
               <div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20">
                 <a

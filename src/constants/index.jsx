@@ -3,7 +3,10 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.webp";
+import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
+import project9 from "../assets/project9.png";
 import photoshop from "../assets/Background.png";
 import illustrator from "../assets/Adobe_Illustrator_CC_icon.svg.png";
 import afterEffects from "../assets/ae.png";
@@ -12,8 +15,6 @@ import ibisPaintX from "../assets/ibispaint.png";
 import canva from "../assets/canva.png";
 import sketchbook from "../assets/SKETCHBOOK.png";
 import InDesign from "../assets/Adobe_InDesign_CC_icon.svg.png";
-
-
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -35,62 +36,102 @@ export const PROJECTS = [
     id: 1,
     title: "Print Design",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+      "A collection of print-ready designs tailored for marketing and communication needs. Featuring clean layouts, sharp visuals, and vibrant colors, these designs bring ideas to life on paper.",
+    techStack: [
+      "Illustrator",
+      "Photoshop",
+      "Canva",
+      "Indesign",
+      "Sketchbook",
+      "IbisPaintX",
+    ],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://drive.google.com/drive/folders/1uj3RCQBXzaIsdBUMlEg0m8w2_1eY717k?usp=drive_link",
   },
   {
     id: 2,
     title: "Brochures & Presentations",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux"],
+      "A collection of well-structured, visually appealing brochures and presentations designed to communicate information effectively. Balanced layouts, engaging visuals, and clean typography ensure clarity and professionalism.",
+    techStack: ["Canva", "Indesign"],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://drive.google.com/drive/folders/1zr34tVpNMXP6zHdjQxMgapbOU73g82un?usp=drive_link",
   },
   {
     id: 3,
     title: "Posters",
     description:
-      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
+      "A series of attention-grabbing posters designed for events, campaigns, and branding purposes. The use of bold visuals, compelling typography, and balanced composition ensures maximum impact.",
+    techStack: [
+      "Illustrator",
+      "Photoshop",
+      "Canva",
+      "Sketchbook",
+      "IbisPaintX",
+    ],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "https://drive.google.com/drive/folders/1zLqIZg2AviuOXxg7HqLS4qPv6WZ60kvb?usp=drive_link",
   },
   {
     id: 4,
     title: "Banners & Standees",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+      "A collection of visually striking designs crafted for events and promotions. Featuring bold typography, vibrant colors, and clean layouts, these designs ensure maximum visibility and impact, perfect for both indoor and outdoor displays.",
+    techStack: ["Illustrator", "Photoshop"],
     imgSrc: project4,
-    link: "https://example-blogplatform.com",
+    link: "https://drive.google.com/drive/folders/1-wvNgBMmzpczzrNyF2qQNRDO79ou7WNM?usp=sharing",
   },
   {
     id: 5,
     title: "Social Media Creatives",
     description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
+      "A series of eye-catching designs tailored for digital platforms. These creatives utilize vibrant colors, trendy aesthetics, and engaging content to enhance brand presence and audience interaction.",
+    techStack: ["Illustrator", "Photoshop", "Canva"],
     imgSrc: project5,
-    link: "https://example-taskapp.com",
+    link: "https://drive.google.com/drive/folders/1CBvz12sfec3fwiwJq-FE4Nft2wPjFm6q?usp=drive_link",
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Digital Art",
     description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
+      "A showcase of imaginative and visually stunning digital artworks. Combining creative concepts, detailed illustrations, and artistic techniques, this collection highlights a unique approach to storytelling and expression.",
+    techStack: ["Illustrator", "Sketchbook", "IbisPaintX"],
     imgSrc: project6,
-    link: "https://example-learningplatform.com",
+    link: "https://drive.google.com/drive/folders/10S3BJGQn__W5UJ3ZCZX6aCvLhQI1zL6V?usp=drive_link",
+  },
+  {
+    id: 7,
+    title: "Logo Design",
+    description:
+      "A collection of unique and impactful font-based logo designs. Each piece focuses on creative typography, clean layouts, and stylistic lettering to deliver a simple yet powerful visual identity.",
+    techStack: ["Illustrator", "Photoshop", "Sketchbook", "IbisPaintX"],
+    imgSrc: project7,
+    link: "https://drive.google.com/drive/folders/1XrC1m4QsuZFDFiRIlclrpfCgKb--4jCN?usp=drive_link",
+  },
+  {
+    id: 8,
+    title: "Merchandise",
+    description:
+      "Custom designs created for merchandise like apparel, accessories. These designs are versatile, bold, and trendy, making them ideal for personal use or branding.",
+    techStack: ["Illustrator", "Photoshop", "Sketchbook", "IbisPaintX"],
+    imgSrc: project8,
+    link: "https://drive.google.com/drive/folders/1X--Xc2g51R1wGbQO_L7dqDXL-hvvHuQx?usp=drive_link",
+  },
+  {
+    id: 9,
+    title: "Website Design",
+    description:
+      "A showcase of user-friendly and visually appealing website designs. Focuses on clean layouts, intuitive navigation, and engaging aesthetics to enhance user experience and functionality.",
+    techStack: ["Illustrator", "Photoshop", "Canva"],
+    imgSrc: project9,
+    link: "https://drive.google.com/drive/folders/102ELqPxPdTGGdm4_D1vQEc4_2RFSWic8?usp=drive_link",
   },
 ];
 
 export const SKILLS = [
   {
     name: "Photoshop",
-    imgSrc: photoshop, 
+    imgSrc: photoshop,
   },
   {
     name: "Illustrator",
@@ -119,7 +160,7 @@ export const SKILLS = [
   {
     name: "InDesign",
     imgSrc: InDesign,
-  }
+  },
 ];
 
 export const EXPERIENCES = [
@@ -137,7 +178,16 @@ export const EXPERIENCES = [
     company: "Tents n Trails",
     description:
       "Conceptualized and designed visual assets, including banners, posters, and promotional materials, to enhance the brand's outdoor adventure appeal. Developed creative marketing collateral for social media campaigns, increasing engagement and brand visibility. Collaborated with the team to ensure cohesive storytelling across print and digital platforms. Focused on producing high-quality, customer-centric designs that resonated with the adventurous spirit of the brand.",
-    techStack: ["Canva", "InDesign", "Sketchbook", "Ibis Paint X", "Premier Pro", "Photoshop", "Illustrator", "After Effects"],
+    techStack: [
+      "Canva",
+      "InDesign",
+      "Sketchbook",
+      "Ibis Paint X",
+      "Premier Pro",
+      "Photoshop",
+      "Illustrator",
+      "After Effects",
+    ],
   },
   {
     yearRange: "------",
@@ -155,16 +205,13 @@ export const EDUCATION = [
     degree: "Bachelor of Technology in Mechanical Engineering",
     institution: "National Institute of Technology, Durgapur",
     duration: "2021-2025",
-    description:
-      "",
+    description: "",
   },
   {
     id: 2,
     degree: "Higher Secondary Education",
     institution: "National High School, Kolkata",
     duration: "2017 - 2020",
-    description:
-      "",
+    description: "",
   },
 ];
-
