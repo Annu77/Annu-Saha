@@ -7,6 +7,7 @@ import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
 import project8 from "../assets/project8.png";
 import project9 from "../assets/project9.png";
+import project10 from "../assets/project10.png"
 import photoshop from "../assets/Background.png";
 import illustrator from "../assets/Adobe_Illustrator_CC_icon.svg.png";
 import afterEffects from "../assets/ae.png";
@@ -125,6 +126,15 @@ export const PROJECTS = [
     techStack: ["Illustrator", "Photoshop", "Canva"],
     imgSrc: project9,
     link: "https://drive.google.com/drive/folders/102ELqPxPdTGGdm4_D1vQEc4_2RFSWic8?usp=drive_link",
+  },
+  {
+    id: 10,
+    title: "Video Editing",
+    description:
+      "A collection of dynamic and engaging video edits crafted to captivate audiences. Featuring seamless transitions, precise cuts, and creative visual effects, these projects showcase storytelling through motion. Perfectly tailored for promotional content, social media, and branding, each edit ensures a compelling viewer experience.",
+    techStack: ["Premier Pro", "After Effects", "Canva"],
+    imgSrc: project10,
+    link: "https://drive.google.com/drive/folders/16zY01hrWZfympmNcL65_8MgL7ZrkKv3A?usp=drive_link",
   },
 ];
 

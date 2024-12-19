@@ -79,14 +79,14 @@ const Hero = () => {
         {PROFILE.subheading}
       </p>
       <a
-        href="/David-stones.pdf"
+        href="/annu.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
-        className="hero-btn mb-6 flex gap-1 rounded-full border border-pink-200/50 px-3 py-2 tracking-tighter"
+        className="hero-btn mb-6 flex gap-1 rounded-full border border-pink-200/50 px-3 py-2 tracking-tighter group"
       >
         <span>Download Resume</span>
-        <RiArrowRightUpLine />
+        <RiArrowRightUpLine className="group-hover:animate-bounce"/>
       </a>
       <img
         src={annu}
